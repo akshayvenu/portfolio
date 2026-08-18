@@ -1,5 +1,5 @@
 import { brandIcons } from "@/components/icons";
-import { HandwrittenNote, Panel, PanelSrTitle } from "@/components/ui";
+import { Panel, PanelSrTitle } from "@/components/ui";
 import { socialLinks } from "@/content";
 
 export function SocialLinks() {
@@ -7,9 +7,6 @@ export function SocialLinks() {
     <Panel noTopLine>
       <PanelSrTitle>Social links</PanelSrTitle>
       <div className="relative flex gap-2 p-4">
-        <HandwrittenNote className="absolute top-2.5 -left-11 hidden -rotate-6 lg:block">
-          say hi
-        </HandwrittenNote>
 
         {socialLinks.map((link) => {
           const BrandIcon = brandIcons[link.platform];

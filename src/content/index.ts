@@ -7,4 +7,4 @@ export { experience } from "./experience";
 export { education } from "./education";
 export { projects } from "./projects";
 export { certifications } from "./certifications";
-export { contributionWeeks, contributionRange, contributionMonths } from "./contributions";
+export { contributionUser, contributionSource } from "./contributions";

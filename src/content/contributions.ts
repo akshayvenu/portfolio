@@ -1,32 +1,10 @@
-import { generateContributions } from "@/lib/contributions";
-import type { ContributionWeeks } from "@/types/content";
+import { siteConfig } from "./site";
 
-/**
- * PLACEHOLDER DATA — a deterministic mosaic stands in for the real GitHub
- * contribution graph. See `src/lib/contributions.ts` for how to swap in the API.
- */
-export const contributionWeeks: ContributionWeeks = generateContributions();
+/** GitHub account the contribution mosaic is fetched for. */
+export const contributionUser = "akshayvenu";
 
-/** Window the mosaic covers, rendered in the figure caption. */
-export const contributionRange = {
-  from: "17.08.2025",
-  to: "17.08.2026",
+/** Static bits of the figure caption; the date range comes from the API. */
+export const contributionSource = {
   sourceLabel: "GitHub",
-  sourceHref: "https://github.com/akshayvenu",
+  sourceHref: siteConfig.githubUrl,
 } as const;
-
-/** Column headings across the mosaic, oldest month first. */
-export const contributionMonths = [
-  "Sep",
-  "Oct",
-  "Nov",
-  "Dec",
-  "Jan",
-  "Feb",
-  "Mar",
-  "Apr",
-  "May",
-  "Jun",
-  "Jul",
-  "Aug",
-] as const;

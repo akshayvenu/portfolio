@@ -105,8 +105,16 @@ export interface Certification {
 /** GitHub-style contribution intensity, 0 (none) through 4 (most). */
 export type ContributionLevel = 0 | 1 | 2 | 3 | 4;
 
-/** One entry per week, each holding seven day levels. */
-export type ContributionWeeks = ContributionLevel[][];
+/** A single day in the contribution mosaic. */
+export interface ContributionDay {
+  /** ISO `YYYY-MM-DD`. */
+  date: string;
+  count: number;
+  level: ContributionLevel;
+}
+
+/** One entry per week, each holding seven days (oldest week first). */
+export type ContributionWeeks = ContributionDay[][];
 
 export interface NavItem {
   label: string;

@@ -7,11 +7,11 @@ export const socialLinks: readonly SocialLink[] = [
     href: "https://github.com/akshayvenu",
     platform: "github",
   },
-  { title: "X", handle: "@akshayvenu", href: "https://x.com/akshayvenu", platform: "x" },
+  { title: "X", handle: "@akhyvnu", href: "https://x.com/akhyvnu", platform: "x" },
   {
     title: "LinkedIn",
-    handle: "akshayvenu",
-    href: "https://www.linkedin.com/in/akshayvenu",
+    handle: "akshay-venu",
+    href: "https://www.linkedin.com/in/akshay-venu/",
     platform: "linkedin",
   },
 ];
