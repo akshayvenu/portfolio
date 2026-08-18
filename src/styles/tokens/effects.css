@@ -1,0 +1,61 @@
+/* Line + divider utilities: the site-wide "grid of panels" motif. */
+.line-x {
+  border-left: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+}
+.line-top {
+  position: relative;
+}
+.line-top:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100vw;
+  z-index: -1;
+  height: 1px;
+  width: 200vw;
+  background: var(--line);
+}
+.line-bottom {
+  position: relative;
+}
+.line-bottom:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -100vw;
+  z-index: -1;
+  height: 1px;
+  width: 200vw;
+  background: var(--line);
+}
+.link {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.link-underline {
+  text-decoration: underline;
+  text-decoration-color: color-mix(in oklab, currentColor 30%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s ease;
+}
+.link-underline:hover {
+  text-decoration-color: currentColor;
+}
+.diagonal-stripes {
+  background-image: repeating-linear-gradient(
+    315deg,
+    color-mix(in oklab, var(--line) 56%, transparent) 0,
+    color-mix(in oklab, var(--line) 56%, transparent) 1px,
+    transparent 0,
+    transparent 50%
+  );
+  background-size: 10px 10px;
+}
+
+::selection {
+  background: var(--selection);
+  color: var(--selection-foreground);
+}

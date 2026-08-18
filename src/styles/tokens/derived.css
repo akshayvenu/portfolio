@@ -1,0 +1,32 @@
+/**
+ * Derived tokens.
+ *
+ * The design kit inlined multi-argument `color-mix()` expressions at each call
+ * site. Naming them once here keeps components legible, keeps the mixes in one
+ * auditable place, and lets them re-resolve automatically in dark mode (every
+ * input is itself a token).
+ */
+:root {
+  /* IconTile's signature layered border + ring. */
+  --tile-border: color-mix(in oklab, var(--muted-foreground) 15%, transparent);
+  --tile-ring: color-mix(in oklab, var(--border) 50%, transparent);
+
+  /* Kbd glyph fill + inner hairline. */
+  --kbd-background: color-mix(in oklab, var(--foreground) 5%, transparent);
+  --kbd-ring: color-mix(in oklab, var(--foreground) 10%, transparent);
+
+  /* Muted marks: list bullets, figure captions, ordinal prefixes. */
+  --bullet: color-mix(in oklab, var(--muted-foreground) 55%, var(--background));
+  --caption: color-mix(in oklab, var(--muted-foreground) 60%, var(--background));
+  --ordinal: color-mix(in oklab, var(--muted-foreground) 80%, transparent);
+
+  /* Translucent pill behind stack entries. */
+  --stack-badge-background: color-mix(in oklab, var(--surface) 80%, transparent);
+
+  /* Contribution mosaic intensity ramp, level 0 (none) through 4 (most). */
+  --contribution-0: color-mix(in oklab, var(--foreground) 5%, var(--background));
+  --contribution-1: color-mix(in oklab, var(--foreground) 16%, var(--background));
+  --contribution-2: color-mix(in oklab, var(--foreground) 32%, var(--background));
+  --contribution-3: color-mix(in oklab, var(--foreground) 52%, var(--background));
+  --contribution-4: color-mix(in oklab, var(--foreground) 76%, var(--background));
+}

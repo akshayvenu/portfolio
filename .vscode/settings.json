@@ -1,0 +1,7 @@
+{
+  "// css.lint.unknownAtRules": "Tailwind v4 at-rules (@theme, @custom-variant, @apply) are unknown to the built-in CSS language service.",
+  "css.lint.unknownAtRules": "ignore",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

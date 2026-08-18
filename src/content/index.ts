@@ -1,0 +1,10 @@
+/** Barrel for the content layer — components import from `@/content`. */
+export { siteConfig, navItems } from "./site";
+export { profile } from "./profile";
+export { socialLinks } from "./social";
+export { techStack } from "./stack";
+export { experience } from "./experience";
+export { education } from "./education";
+export { projects } from "./projects";
+export { certifications } from "./certifications";
+export { contributionWeeks, contributionRange, contributionMonths } from "./contributions";

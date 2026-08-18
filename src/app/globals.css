@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+@import "../styles/tokens/colors.css";
+@import "../styles/tokens/typography.css";
+@import "../styles/tokens/spacing.css";
+@import "../styles/tokens/derived.css";
+@import "../styles/tokens/effects.css";
+
+/* next-themes writes `class="dark"` onto <html>. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/**
+ * Bridge the design-system color tokens into Tailwind's `--color-*` namespace.
+ * `inline` makes utilities emit `var(--background)` rather than an indirection,
+ * so the `.dark` overrides in tokens/colors.css cascade without extra work.
+ */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-accent: var(--accent);
+  --color-accent-muted: var(--accent-muted);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-line: var(--line);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-info: var(--info);
+  --color-success: var(--success);
+  --color-destructive: var(--destructive);
+  --color-link: var(--link);
+  --color-surface: var(--surface);
+  --color-surface-foreground: var(--surface-foreground);
+
+  /* Derived tokens, exposed as Tailwind colors (see tokens/derived.css). */
+  --color-tile-border: var(--tile-border);
+  --color-tile-ring: var(--tile-ring);
+  --color-kbd-background: var(--kbd-background);
+  --color-kbd-ring: var(--kbd-ring);
+  --color-bullet: var(--bullet);
+  --color-caption: var(--caption);
+  --color-ordinal: var(--ordinal);
+  --color-stack-badge: var(--stack-badge-background);
+
+  --animate-fade-up: fade-up 0.35s var(--ease-out-expo);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@layer base {
+  /*
+   * Tailwind v4 preflight defaults `border-color` to `currentColor`. The whole
+   * page is built from hairline rules, so default to the hairline token instead.
+   */
+  *,
+  ::after,
+  ::before {
+    border-color: var(--line);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-heading);
+  }
+
+  a {
+    color: var(--link);
+  }
+
+  button {
+    font-family: inherit;
+  }
+
+  /* Sticky header must not cover the target of an in-page anchor. */
+  [id] {
+    scroll-margin-top: calc(var(--header-height) + var(--space-4));
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    ::before,
+    ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}

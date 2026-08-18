@@ -1,0 +1,33 @@
+/**
+ * Typography tokens.
+ *
+ * The design system loaded Geist / Geist Mono / IBM Plex Serif / Caveat from the
+ * Google Fonts CDN. Here they are self-hosted via `next/font/google`
+ * (see `src/app/fonts.ts`), which injects the `--font-geist-*` variables
+ * consumed below — no render-blocking CDN request, no layout shift.
+ *
+ * These names live in a Tailwind v4 theme namespace (`--font-*`, `--text-*`,
+ * `--leading-*`), so they are declared in `@theme` rather than `:root`. Tailwind
+ * emits them as real custom properties AND generates the matching utilities
+ * (`font-mono`, `text-sm`, `leading-relaxed`), keeping one source of truth.
+ */
+@theme {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, "SF Mono", monospace;
+  --font-serif: var(--font-plex-serif), ui-serif, Georgia, serif;
+  --font-handwritten: var(--font-caveat), cursive;
+  --font-heading: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.8125rem;
+  --text-base: 0.9375rem;
+  --text-lg: 1.0625rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.5rem;
+
+  --leading-tight: 1.3;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.75;
+}
