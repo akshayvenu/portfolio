@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Icon } from "@/components/icons";
 import { profile } from "@/content";
 import { FlipSentences } from "./flip-sentences";
@@ -26,8 +27,20 @@ export function ProfileHeader() {
 
       <div className="col-start-1 row-span-2 row-start-1 flex flex-col">
         <div className="mt-auto shrink-0 border-t border-r border-line px-[2px] py-[3px]">
-          <div className="flex size-[152px] items-center justify-center rounded-full border border-border bg-muted text-[34px] font-medium tracking-[-0.02em] text-muted-foreground select-none max-sm:size-24 max-sm:text-2xl">
-            {initialsOf(profile.displayName)}
+          <div className="relative flex size-[152px] items-center justify-center overflow-hidden rounded-full border border-border bg-muted text-[34px] font-medium tracking-[-0.02em] text-muted-foreground select-none max-sm:size-24 max-sm:text-2xl">
+            {profile.avatarUrl ? (
+              <Image
+                src={profile.avatarUrl}
+                alt=""
+                aria-hidden="true"
+                fill
+                priority
+                sizes="(max-width: 40rem) 96px, 152px"
+                className="object-cover"
+              />
+            ) : (
+              initialsOf(profile.displayName)
+            )}
           </div>
         </div>
       </div>

@@ -21,6 +21,8 @@ export interface OverviewItem {
 
 export interface Profile {
   displayName: string;
+  /** Avatar image served from `public/`. Omit to fall back to initials. */
+  avatarUrl?: string;
   /** Rotating one-liners under the name. */
   flipSentences: string[];
   /** Bio paragraphs. `**bold**` spans render as underlined links. */

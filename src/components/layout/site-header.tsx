@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { GitHubIcon } from "@/components/icons";
 import { Separator } from "@/components/ui";
@@ -15,12 +16,17 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 overflow-x-clip bg-background px-2">
       <div className="mx-auto flex h-[var(--header-height)] w-full max-w-[var(--content-max-width)] items-center gap-4 border-t border-r border-b border-t-line border-r-line border-b-border pr-2">
-        <Link
-          href="/"
-          aria-label="Home"
-          className="flex h-8 items-center pl-3 text-xl font-semibold tracking-[-0.03em] text-foreground no-underline"
-        >
-          {siteConfig.name}
+        <Link href="/" aria-label={`${siteConfig.name} — home`} className="flex h-8 items-center pl-3">
+          {/* The mark ships as black-on-transparent, so `invert` carries it into dark mode. */}
+          <Image
+            src="/images/logo.png"
+            alt=""
+            aria-hidden="true"
+            width={30}
+            height={28}
+            priority
+            className="h-7 w-auto select-none dark:invert"
+          />
         </Link>
 
         <div className="flex-1" />

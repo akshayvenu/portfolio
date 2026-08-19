@@ -6,6 +6,7 @@ import type { Profile } from "@/types/content";
  */
 export const profile: Profile = {
   displayName: "Akshay Venu",
+  avatarUrl: "/images/asta.jpg",
   flipSentences: ["Software Engineer.", "Open source tinkerer.", "Building with code."],
   timeZone: "Asia/Kolkata",
   timeZoneLabel: "IST",
