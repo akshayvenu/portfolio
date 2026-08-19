@@ -15,6 +15,8 @@ export interface OverviewItem {
   /** Render in the mono face — used for "data-like" values. */
   mono?: boolean;
   href?: string;
+  /** Click-to-copy: the raw text placed on the clipboard. */
+  copy?: string;
   /** Values that cannot be known at build time. */
   dynamic?: "local-time";
 }

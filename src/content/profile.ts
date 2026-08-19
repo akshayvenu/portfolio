@@ -11,14 +11,13 @@ export const profile: Profile = {
   timeZone: "Asia/Kolkata",
   timeZoneLabel: "IST",
   bio: [
-    "I'm Akshay Venu (call me Akshay) — a Software Engineer with 5+ years of experience, known for pixel-perfect execution and an obsessive attention to detail.",
-    "Passionate about exploring new technologies and turning ideas into reality through polished, thoughtfully crafted projects.",
-    "Creator of **Devgrid** (placeholder metrics), **Flowline** and **Palette** — replace with real projects.",
+    "AI Backend Engineer passionate about building scalable backend systems and Generative AI applications. Experienced with Python, FastAPI, LLMs, LangChain, LangGraph, Google Gemini, Vertex AI, MongoDB, Docker, and GCP.",
+    "I enjoy building products from the ground up, solving real-world problems, and working in small, high-impact teams where ownership is high and the focus is on tackling meaningful challenges. Always eager to learn, build, and contribute to products that make a difference.",
   ],
   overview: [
     { icon: "code-xml", label: "AI & Backend Engineer @AIVision21", mono: true },
     { icon: "map-pin", label: "Mumbai, India", mono: true },
-    { icon: "phone", label: "+91 9136839960", mono: true },
+    { icon: "phone", label: "+91 9136839960", mono: true, copy: "+919136839960" },
   ],
   overviewRight: [
     { icon: "clock", dynamic: "local-time", mono: true },
@@ -26,7 +25,7 @@ export const profile: Profile = {
       icon: "mail",
       label: "akshayvenugopal2002@gmail.com",
       mono: true,
-      href: "mailto:akshayvenugopal2002@gmail.com",
+      copy: "akshayvenugopal2002@gmail.com",
     },
     { icon: "mars", label: "he/him", mono: true },
   ],

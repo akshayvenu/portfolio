@@ -1,43 +1,39 @@
 import type { Company } from "@/types/content";
 
-/** PLACEHOLDER CONTENT — replace with real roles. */
 export const experience: readonly Company[] = [
   {
-    company: "Acme Labs",
-    location: "Bengaluru, India (Remote)",
+    company: "AIVision21",
+    location: "South Mumbai, Maharashtra, India (On-site)",
     current: true,
     roles: [
       {
-        title: "Senior Frontend Engineer",
+        title: "AI & Backend Developer",
         employmentType: "Full-time",
-        start: "01.2024",
-        end: null,
-        duration: "2y 7m",
+        start: "02.2026",
+        end: "08.2026",
+        duration: "7m",
         expanded: true,
         description: [
-          "Own the design-system layer, from Figma to production-ready React.",
-          "Build and maintain the internal component registry.",
-          "Ship features for the marketing website.",
-          "Maintain Storybook documentation.",
+          "Owned the Blue Collar Interviewer platform from POC to Production, building backend systems for interview workflows, evaluation logic, and admin modules.",
+          "Reduced interview processing time from 15s to 2–5s by optimizing backend pipelines and integrating Bulbul V3 (TTS) and Saras V3 (STT).",
+          "Built scalable FastAPI and MongoDB backend services for interview platforms, billing systems, authentication modules, and admin dashboards.",
+          "Implemented CI/CD pipelines using Google Cloud Build, Cloud Run, deployment triggers, and substitution variables to automate releases.",
+          "Integrated Razorpay payment gateway and developed a wallet system supporting credits, transaction history, and payment workflows.",
         ],
-        skills: ["TypeScript", "Next.js", "Tailwind CSS", "Storybook", "Figma", "Design"],
-      },
-    ],
-  },
-  {
-    company: "Northwind Systems",
-    location: "Bengaluru, India (Hybrid)",
-    current: false,
-    roles: [
-      {
-        title: "Software Engineer",
-        employmentType: "Full-time",
-        start: "06.2021",
-        end: "12.2023",
-        duration: "2y 7m",
-        expanded: false,
-        description: ["Built internal tooling and customer-facing dashboards."],
-        skills: ["React", "Node.js", "PostgreSQL"],
+        skills: [
+          "Python",
+          "FastAPI",
+          "MongoDB",
+          "Google Cloud Platform (GCP)",
+          "Cloud Run",
+          "Cloud Build",
+          "Docker",
+          "LangChain",
+          "LangGraph",
+          "Google Gemini",
+          "Vertex AI",
+          "Razorpay",
+        ],
       },
     ],
   },

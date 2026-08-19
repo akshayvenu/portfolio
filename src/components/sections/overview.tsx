@@ -3,6 +3,7 @@ import { IconTile, Panel, PanelSrTitle } from "@/components/ui";
 import { profile } from "@/content";
 import { cn } from "@/lib/utils";
 import type { OverviewItem } from "@/types/content";
+import { CopyValue } from "./copy-value";
 import { LocalTime } from "./local-time";
 
 function OverviewRow({ item }: { item: OverviewItem }) {
@@ -18,6 +19,21 @@ function OverviewRow({ item }: { item: OverviewItem }) {
       {value}
     </span>
   );
+
+  if (item.copy) {
+    return (
+      <div className="flex items-center gap-3 py-[5px]">
+        <IconTile>
+          <Icon name={item.icon} size={13} />
+        </IconTile>
+        <CopyValue
+          value={item.copy}
+          label={item.label}
+          className={cn("text-sm text-foreground", item.mono ? "font-mono" : "font-sans")}
+        />
+      </div>
+    );
+  }
 
   return (
     <div className="flex items-center gap-3 py-[5px]">
