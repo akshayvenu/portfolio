@@ -13,7 +13,7 @@ Implemented from the `ui_kits/portfolio/index.html` kit in the
 | Runtime & package manager | Bun                                                                     |
 | Language                  | TypeScript (strict, `noUncheckedIndexedAccess`)                         |
 | Styling                   | Tailwind CSS v4 + design-system CSS custom properties                   |
-| Theming                   | `next-themes` (`class` strategy, system-aware)                          |
+| Theming                   | Dark only — `.dark` hard-coded on `<html>`, no runtime theme library    |
 | Icons                     | `lucide-react`, plus inlined brand marks                                |
 | Fonts                     | Geist, Geist Mono, IBM Plex Serif, Caveat — self-hosted via `next/font` |
 
@@ -46,7 +46,7 @@ bun run dev                  # http://localhost:3000
 ```
 src/
 ├─ app/                    Route layer only — thin, no business logic
-│  ├─ layout.tsx           Fonts, metadata, ThemeProvider
+│  ├─ layout.tsx           Fonts, metadata, the `dark` class on <html>
 │  ├─ page.tsx             Composes the sections; Person JSON-LD
 │  ├─ fonts.ts             next/font declarations
 │  ├─ globals.css          Tailwind entry + theme bridge
@@ -56,7 +56,7 @@ src/
 ├─ components/
 │  ├─ ui/                  Design-system primitives (Panel, Tag, Kbd, IconTile…)
 │  │                       Presentational and content-agnostic.
-│  ├─ layout/              Page chrome: header, footer, bands, theme, command menu
+│  ├─ layout/              Page chrome: header, footer, bands, command menu
 │  ├─ sections/            One file per page section
 │  │  └─ shared/           Cross-section pieces (Period, Bullets, CollapsibleRow…)
 │  └─ icons/               Icon resolver + inlined brand marks
@@ -126,7 +126,7 @@ The design kit shipped with sample data, which is carried over verbatim and mark
 - `content/contributions.ts` — a seeded pseudo-random mosaic, not real GitHub data.
   `lib/contributions.ts` documents the shape the GitHub GraphQL
   `contributionsCollection` query needs to return.
-- `public/images/figure-mark.jpeg` — the decorative masthead figure
+- `public/images/banner.png` — the decorative masthead figure
 - `siteConfig.githubStars` in `content/site.ts` is a static string
 
 ---
@@ -134,7 +134,7 @@ The design kit shipped with sample data, which is carried over verbatim and mark
 ## Notes on a few decisions
 
 **Server Components by default.** Only components that need state or browser APIs
-carry `"use client"`: the theme toggle, command menu, collapsible rows, the rotating
+carry `"use client"`: the command menu, collapsible rows, the rotating
 tagline, the live clock and the contribution tooltip. Everything else renders on the
 server.
 

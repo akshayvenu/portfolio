@@ -6,7 +6,7 @@
 @import "../styles/tokens/derived.css";
 @import "../styles/tokens/effects.css";
 
-/* next-themes writes `class="dark"` onto <html>. */
+/* The site is dark-only: `class="dark"` is set on <html> in app/layout.tsx. */
 @custom-variant dark (&:where(.dark, .dark *));
 
 /**

@@ -4,7 +4,6 @@ import { GitHubIcon } from "@/components/icons";
 import { Separator } from "@/components/ui";
 import { navItems, siteConfig } from "@/content";
 import { CommandMenu } from "./command-menu";
-import { ThemeToggle } from "./theme-toggle";
 
 /**
  * Sticky header. Note the deliberately asymmetric frame from the design kit:
@@ -59,10 +58,6 @@ export function SiteHeader() {
           <span className="tabular-nums">{siteConfig.githubStars}</span>
           <span className="sr-only">GitHub stars</span>
         </a>
-
-        <Separator className="h-5" />
-
-        <ThemeToggle />
       </div>
     </header>
   );

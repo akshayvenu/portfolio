@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
-import { ThemeProvider } from "@/components/layout";
 import { siteConfig } from "@/content";
 import { fontVariables } from "./fonts";
 import "./globals.css";
@@ -36,27 +35,15 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#09090b" },
-  ],
+  themeColor: "#09090b",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    // `suppressHydrationWarning` is required: next-themes writes the theme class
-    // onto <html> before React hydrates, which is a deliberate mismatch.
-    <html lang="en" suppressHydrationWarning className={fontVariables}>
-      <body>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
-      </body>
+    // The site is dark-only, so `dark` is set here rather than by a runtime
+    // theme library — it lands in the SSR markup with no flash on first paint.
+    <html lang="en" className={`dark ${fontVariables}`}>
+      <body>{children}</body>
     </html>
   );
 }

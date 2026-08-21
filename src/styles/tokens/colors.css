@@ -1,6 +1,9 @@
 /**
  * Color tokens — ported verbatim from the Claude Design design system.
- * Light values live on :root, dark overrides on .dark (set by next-themes).
+ * Light values live on :root, dark overrides on .dark — which app/layout.tsx
+ * puts on <html> unconditionally, so dark is the only theme the site renders.
+ * :root is still the base layer the overrides sit on (a few tokens, e.g.
+ * --info, have no dark counterpart), so it must stay.
  * Never hard-code a hex in a component; add a token here instead.
  */
 :root {

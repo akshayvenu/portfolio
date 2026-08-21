@@ -48,7 +48,7 @@ export function CopyValue({
       onClick={copy}
       aria-label={copied ? `Copied ${value}` : `Copy ${value}`}
       className={cn(
-        "group/copy relative -mx-1.5 -my-0.5 inline-flex cursor-pointer items-center gap-2",
+        "group/copy relative -mx-1.5 -my-0.5 flex w-full cursor-pointer items-center gap-2 sm:inline-flex sm:w-auto",
         "rounded-md px-1.5 py-0.5 text-left transition-all duration-300",
         "focus-visible:outline-none active:scale-[0.985]",
         !copied &&
@@ -83,7 +83,7 @@ export function CopyValue({
           "relative inline-flex size-3.5 shrink-0 items-center justify-center transition-opacity duration-200",
           copied
             ? "text-copy-success opacity-100"
-            : "text-muted-foreground opacity-0 group-hover/copy:opacity-70 group-focus-visible/copy:opacity-70",
+            : "text-muted-foreground opacity-50 group-hover/copy:opacity-100 group-focus-visible/copy:opacity-100",
         )}
       >
         {copied ? (
@@ -91,22 +91,27 @@ export function CopyValue({
         ) : (
           <Icon name="copy" size={12} />
         )}
-      </span>
 
-      {/* Floating confirmation pill — absolutely positioned so it adds no width. */}
-      {copied && (
-        <span
-          aria-hidden
-          className={cn(
-            "pointer-events-none absolute right-0 bottom-full mb-1 whitespace-nowrap",
-            "sm:top-1/2 sm:right-auto sm:bottom-auto sm:left-full sm:mb-0 sm:ml-2 sm:-translate-y-1/2",
-            "animate-copy-toast rounded-full border border-copy-success/30 bg-copy-success/12",
-            "px-2 py-0.5 font-mono text-[10px] tracking-wide text-copy-success uppercase",
-          )}
-        >
-          Copied
-        </span>
-      )}
+        {/* Floating confirmation pill — anchored to the icon, not the full-width
+            button. On narrow screens there's no room to float sideways (long
+            labels already reach the row's edge), so it pops up above the icon
+            instead, growing left/up from the icon's own edge — it can never
+            spill past the row. From `sm` up there's room, so it floats beside
+            the icon instead. */}
+        {copied && (
+          <span
+            aria-hidden
+            className={cn(
+              "pointer-events-none absolute right-0 bottom-full mb-1.5 whitespace-nowrap",
+              "sm:bottom-auto sm:top-1/2 sm:right-auto sm:left-full sm:mb-0 sm:ml-2 sm:-translate-y-1/2",
+              "animate-copy-toast rounded-full border border-copy-success/30 bg-copy-success/12",
+              "px-2 py-0.5 font-mono text-[10px] tracking-wide text-copy-success uppercase",
+            )}
+          >
+            Copied
+          </span>
+        )}
+      </span>
     </button>
   );
 }

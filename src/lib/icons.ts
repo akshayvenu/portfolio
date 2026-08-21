@@ -16,10 +16,8 @@ import {
   Mail,
   MapPin,
   Mars,
-  Moon,
   Phone,
   Search,
-  Sun,
   type LucideIcon,
 } from "lucide-react";
 
@@ -49,10 +47,8 @@ export const iconRegistry = {
   mail: Mail,
   "map-pin": MapPin,
   mars: Mars,
-  moon: Moon,
   phone: Phone,
   search: Search,
-  sun: Sun,
 } as const satisfies Record<string, LucideIcon>;
 
 export type IconName = keyof typeof iconRegistry;
