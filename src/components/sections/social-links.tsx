@@ -7,7 +7,6 @@ export function SocialLinks() {
     <Panel noTopLine>
       <PanelSrTitle>Social links</PanelSrTitle>
       <div className="relative flex gap-2 p-4">
-
         {socialLinks.map((link) => {
           const BrandIcon = brandIcons[link.platform];
           return (

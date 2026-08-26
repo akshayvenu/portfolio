@@ -34,6 +34,10 @@
   --surface-foreground: oklch(0.141 0.005 285.823);
   --selection: oklch(0.141 0.005 285.823);
   --selection-foreground: oklch(0.985 0 0);
+
+  /* Side Quest accent — the one hue the training page is allowed to spend, so
+     the log reads as a different mode of the site without a second theme. */
+  --training: oklch(0.66 0.19 42);
 }
 
 .dark {
@@ -63,4 +67,6 @@
   --surface-foreground: oklch(0.985 0 0);
   --selection: oklch(0.985 0 0);
   --selection-foreground: oklch(0.141 0.005 285.823);
+
+  --training: oklch(0.74 0.17 48);
 }

@@ -1,4 +1,4 @@
-import type { NavItem } from "@/types/content";
+import type { NavItem, PageTab } from "@/types/content";
 
 /**
  * Global site metadata. `url` drives canonical links, Open Graph tags,
@@ -40,4 +40,17 @@ export const navItems: readonly NavItem[] = [
   { label: "Stack", href: "#stack" },
   { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
+];
+
+export const fitnessNavItems: readonly NavItem[] = [
+  { label: "Numbers", href: "#numbers" },
+  { label: "Consistency", href: "#consistency" },
+  { label: "Records", href: "#records" },
+  { label: "Sessions", href: "#sessions" },
+];
+
+/** Order matters — this is the left-to-right order of the header switch. */
+export const pageTabs: readonly PageTab[] = [
+  { label: "Professional", href: "/", sections: navItems },
+  { label: "Side Quest", href: "/side-quest", sections: fitnessNavItems },
 ];

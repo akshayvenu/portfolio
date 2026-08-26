@@ -8,15 +8,16 @@ import {
   useState,
   type KeyboardEvent as ReactKeyboardEvent,
 } from "react";
+import { useRouter, usePathname } from "next/navigation";
 import { Icon } from "@/components/icons";
 import { Kbd, KbdGroup } from "@/components/ui";
-import { navItems, socialLinks } from "@/content";
+import { pageTabs, socialLinks } from "@/content";
 import { cn } from "@/lib/utils";
 
 interface CommandEntry {
   id: string;
   label: string;
-  group: "Sections" | "Links";
+  group: "Pages" | "Sections" | "Links";
   href: string;
   external: boolean;
 }
@@ -34,9 +35,26 @@ export function CommandMenu() {
   const [query, setQuery] = useState("");
   const [activeIndex, setActiveIndex] = useState(0);
 
+  const pathname = usePathname();
+
+  const currentTab = useMemo(
+    () =>
+      pageTabs.find((tab) => (tab.href === "/" ? pathname === "/" : pathname.startsWith(tab.href))),
+    [pathname],
+  );
+
   const entries = useMemo<CommandEntry[]>(
     () => [
-      ...navItems.map((item) => ({
+      ...pageTabs
+        .filter((tab) => tab !== currentTab)
+        .map((tab) => ({
+          id: `page:${tab.href}`,
+          label: tab.label,
+          group: "Pages" as const,
+          href: tab.href,
+          external: false,
+        })),
+      ...(currentTab?.sections ?? []).map((item) => ({
         id: `section:${item.href}`,
         label: item.label,
         group: "Sections" as const,
@@ -51,7 +69,7 @@ export function CommandMenu() {
         external: true,
       })),
     ],
-    [],
+    [currentTab],
   );
 
   const results = useMemo(() => {
@@ -60,6 +78,7 @@ export function CommandMenu() {
     return entries.filter((entry) => entry.label.toLowerCase().includes(needle));
   }, [entries, query]);
 
+  const router = useRouter();
   const close = useCallback(() => dialogRef.current?.close(), []);
 
   const open = useCallback(() => {
@@ -89,12 +108,14 @@ export function CommandMenu() {
       // the dialog's focus restoration cancels a smooth scroll started here.
       if (entry.external) {
         window.open(entry.href, "_blank", "noopener,noreferrer");
+      } else if (entry.group === "Pages") {
+        router.push(entry.href);
       } else {
         pendingTargetRef.current = entry.href;
       }
       close();
     },
-    [close],
+    [close, router],
   );
 
   function onDialogClose() {
@@ -160,8 +181,8 @@ export function CommandMenu() {
                 setQuery(event.target.value);
                 setActiveIndex(0);
               }}
-              placeholder="Jump to a section or link…"
-              aria-label="Search sections and links"
+              placeholder="Jump to a page, section or link…"
+              aria-label="Search pages, sections and links"
               role="combobox"
               aria-expanded="true"
               aria-controls="command-menu-results"

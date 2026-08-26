@@ -29,4 +29,13 @@
   --contribution-2: color-mix(in oklab, var(--foreground) 32%, var(--background));
   --contribution-3: color-mix(in oklab, var(--foreground) 52%, var(--background));
   --contribution-4: color-mix(in oklab, var(--foreground) 76%, var(--background));
+
+  /* Training heatmap ramp — same geometry as the contribution mosaic, tinted
+     with the Side Quest accent so the two maps can't be confused. */
+  --training-muted: color-mix(in oklab, var(--training) 14%, transparent);
+  --training-0: color-mix(in oklab, var(--foreground) 5%, var(--background));
+  --training-1: color-mix(in oklab, var(--training) 26%, var(--background));
+  --training-2: color-mix(in oklab, var(--training) 45%, var(--background));
+  --training-3: color-mix(in oklab, var(--training) 68%, var(--background));
+  --training-4: var(--training);
 }

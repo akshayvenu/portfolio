@@ -11,7 +11,8 @@ function levelBackground(level: ContributionLevel): string {
 }
 
 function contributionLabel(day: ContributionDay): string {
-  const count = day.count === 0 ? "No contributions" : `${day.count} contribution${day.count === 1 ? "" : "s"}`;
+  const count =
+    day.count === 0 ? "No contributions" : `${day.count} contribution${day.count === 1 ? "" : "s"}`;
   const date = new Date(`${day.date}T00:00:00Z`).toLocaleDateString("en-US", {
     month: "short",
     day: "numeric",
