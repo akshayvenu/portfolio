@@ -2,8 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { GitHubIcon } from "@/components/icons";
 import { Separator } from "@/components/ui";
-import { navItems, siteConfig } from "@/content";
+import { siteConfig } from "@/content";
 import { CommandMenu } from "./command-menu";
+import { PageSwitch, SectionNav } from "./page-switch";
 
 /**
  * Sticky header. Note the deliberately asymmetric frame from the design kit:
@@ -15,7 +16,11 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 overflow-x-clip bg-background px-2">
       <div className="mx-auto flex h-[var(--header-height)] w-full max-w-[var(--content-max-width)] items-center gap-4 border-t border-r border-b border-t-line border-r-line border-b-border pr-2">
-        <Link href="/" aria-label={`${siteConfig.name} — home`} className="flex h-8 items-center pl-3">
+        <Link
+          href="/"
+          aria-label={`${siteConfig.name} — home`}
+          className="flex h-8 items-center pl-3"
+        >
           {/* The mark ships as black-on-transparent, so `invert` carries it into dark mode. */}
           <Image
             src="/images/logo.png"
@@ -28,21 +33,13 @@ export function SiteHeader() {
           />
         </Link>
 
+        <PageSwitch />
+
         <div className="flex-1" />
 
-        <nav aria-label="Sections" className="hidden gap-5 text-[0.875rem] font-medium md:flex">
-          {navItems.map((item) => (
-            <a
-              key={item.href}
-              href={item.href}
-              className="text-muted-foreground no-underline transition-colors hover:text-foreground"
-            >
-              {item.label}
-            </a>
-          ))}
-        </nav>
+        <SectionNav className="hidden lg:flex" />
 
-        <Separator className="hidden h-5 md:block" />
+        <Separator className="hidden h-5 lg:block" />
 
         <CommandMenu />
 

@@ -1,4 +1,5 @@
 import {
+  Activity,
   ArrowUpRight,
   BadgeCheck,
   Box,
@@ -6,9 +7,12 @@ import {
   ChevronsUpDown,
   CircleCheckBig,
   Check,
+  CalendarDays,
   Clock,
   CodeXml,
   Copy,
+  Dumbbell,
+  Flame,
   GraduationCap,
   Infinity as InfinityIcon,
   Lightbulb,
@@ -17,7 +21,10 @@ import {
   MapPin,
   Mars,
   Phone,
+  Repeat,
   Search,
+  Timer,
+  Trophy,
   type LucideIcon,
 } from "lucide-react";
 
@@ -30,6 +37,7 @@ import {
  * an unknown icon name is a compile error, not a missing glyph at runtime.
  */
 export const iconRegistry = {
+  activity: Activity,
   "arrow-up-right": ArrowUpRight,
   "badge-check": BadgeCheck,
   box: Box,
@@ -38,8 +46,11 @@ export const iconRegistry = {
   "circle-check-big": CircleCheckBig,
   check: Check,
   clock: Clock,
+  "calendar-days": CalendarDays,
   "code-xml": CodeXml,
   copy: Copy,
+  dumbbell: Dumbbell,
+  flame: Flame,
   "graduation-cap": GraduationCap,
   infinity: InfinityIcon,
   lightbulb: Lightbulb,
@@ -48,7 +59,10 @@ export const iconRegistry = {
   "map-pin": MapPin,
   mars: Mars,
   phone: Phone,
+  repeat: Repeat,
   search: Search,
+  timer: Timer,
+  trophy: Trophy,
 } as const satisfies Record<string, LucideIcon>;
 
 export type IconName = keyof typeof iconRegistry;

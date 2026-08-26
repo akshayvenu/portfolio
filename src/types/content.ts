@@ -124,3 +124,15 @@ export interface NavItem {
   label: string;
   href: string;
 }
+
+/**
+ * A top-level destination in the header's segmented switch. The site is two
+ * parallel stories — the professional one and the training one — so pages are
+ * modelled as siblings rather than as a hierarchy.
+ */
+export interface PageTab {
+  label: string;
+  href: string;
+  /** Section links shown in the header (and command menu) while on this page. */
+  sections: readonly NavItem[];
+}

@@ -57,12 +57,7 @@ export function CopyValue({
       )}
     >
       <span className="relative">
-        <span
-          className={cn(
-            "transition-colors duration-300",
-            copied && "text-copy-success",
-          )}
-        >
+        <span className={cn("transition-colors duration-300", copied && "text-copy-success")}>
           {label ?? value}
         </span>
 
@@ -103,7 +98,7 @@ export function CopyValue({
             aria-hidden
             className={cn(
               "pointer-events-none absolute right-0 bottom-full mb-1.5 whitespace-nowrap",
-              "sm:bottom-auto sm:top-1/2 sm:right-auto sm:left-full sm:mb-0 sm:ml-2 sm:-translate-y-1/2",
+              "sm:top-1/2 sm:right-auto sm:bottom-auto sm:left-full sm:mb-0 sm:ml-2 sm:-translate-y-1/2",
               "animate-copy-toast rounded-full border border-copy-success/30 bg-copy-success/12",
               "px-2 py-0.5 font-mono text-[10px] tracking-wide text-copy-success uppercase",
             )}
