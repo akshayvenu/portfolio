@@ -25,13 +25,11 @@ function resolveSiteUrl(): string {
 
 export const siteConfig = {
   name: "Akshay Venu",
-  title: "Akshay Venu — Software Engineer",
+  title: "Akshay Venu — AI Backend Developer",
   description:
-    "Software Engineer with 5+ years of experience, known for pixel-perfect execution and an obsessive attention to detail.",
+    "AI Backend Engineer passionate about building scalable backend systems and Generative AI applications.",
   url: resolveSiteUrl(),
   locale: "en_US",
-  /** Shown next to the GitHub mark in the header. */
-  githubStars: "1.2k",
   githubUrl: "https://github.com/akshayvenu",
 } as const;
 

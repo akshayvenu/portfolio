@@ -1,73 +1,1207 @@
 {
   "source": "sample",
-  "syncedAt": "2026-08-26T17:47:14.269280+00:00",
+  "syncedAt": "2026-08-28T11:47:36.655448+00:00",
   "stats": [
     {
       "id": "workouts",
       "label": "Sessions logged",
-      "value": "98",
+      "value": "52",
       "unit": null,
       "hint": "All time, via Hevy"
     },
     {
       "id": "volume",
       "label": "Volume moved",
-      "value": "529",
+      "value": "123",
       "unit": "t",
-      "hint": "Across the last 98 sessions"
+      "hint": "Across the last 52 sessions"
     },
     {
       "id": "streak",
       "label": "Weekly streak",
-      "value": "26",
+      "value": "0",
       "unit": "wks",
       "hint": "Consecutive weeks trained"
     },
     {
       "id": "cadence",
       "label": "Cadence",
-      "value": "4.0",
+      "value": "0.7",
       "unit": "/wk",
       "hint": "Rolling 30 days"
     },
     {
       "id": "duration",
       "label": "Average session",
-      "value": "65",
+      "value": "46",
       "unit": "min",
       "hint": "Door to door"
     }
   ],
   "heatmap": [
     {
-      "date": "2026-03-02",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3715.0
-    },
-    {
-      "date": "2026-03-03",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 2802.0
-    },
-    {
-      "date": "2026-03-04",
+      "date": "2025-08-25",
       "level": 0,
       "workouts": 0,
       "volumeKg": 0.0
     },
     {
-      "date": "2026-03-05",
+      "date": "2025-08-26",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-08-27",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-08-28",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-08-29",
+      "level": 3,
+      "workouts": 1,
+      "volumeKg": 3380.0
+    },
+    {
+      "date": "2025-08-30",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-08-31",
+      "level": 1,
+      "workouts": 1,
+      "volumeKg": 810.0
+    },
+    {
+      "date": "2025-09-01",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-02",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-03",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-04",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-05",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-06",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-07",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-08",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-09",
+      "level": 1,
+      "workouts": 1,
+      "volumeKg": 582.0
+    },
+    {
+      "date": "2025-09-10",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-11",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-12",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-13",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-14",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-15",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-16",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-17",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-18",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-19",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-20",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-21",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-22",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-23",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-24",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-25",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-26",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-27",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-28",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-29",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-09-30",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-01",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-02",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-03",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-04",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-05",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-06",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-07",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-08",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-09",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-10",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-11",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-12",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-13",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-14",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-15",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-16",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-17",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-18",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-19",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-20",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-21",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-22",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-23",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-24",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-25",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-26",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-27",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-28",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-29",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-30",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-10-31",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-01",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-02",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-03",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-04",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-05",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-06",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-07",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-08",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-09",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-10",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-11",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-12",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-13",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-14",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-15",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-16",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-17",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-18",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-19",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-20",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-21",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-22",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-23",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-24",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-25",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-26",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-27",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-28",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-29",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-11-30",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-01",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-02",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-03",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-04",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-05",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-06",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-07",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-08",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-09",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-10",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-11",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-12",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-13",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-14",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-15",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-16",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-17",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-18",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-19",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-20",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-21",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-22",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-23",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-24",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-25",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-26",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-27",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-28",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-29",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-30",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2025-12-31",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-01",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-02",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-03",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-04",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-05",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-06",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-07",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-08",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-09",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-10",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-11",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-12",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-13",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-14",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-15",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-16",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-17",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-18",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-19",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-20",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-21",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-22",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-23",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-24",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-25",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-26",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-27",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-28",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-29",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-30",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-01-31",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-01",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-02",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-03",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-04",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-05",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-06",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-07",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-08",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-09",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-10",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-11",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-12",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-13",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-14",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-15",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-16",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-17",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-18",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-19",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-20",
+      "level": 2,
+      "workouts": 1,
+      "volumeKg": 1140.0
+    },
+    {
+      "date": "2026-02-21",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-22",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-23",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-24",
+      "level": 2,
+      "workouts": 1,
+      "volumeKg": 1724.0
+    },
+    {
+      "date": "2026-02-25",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-02-26",
+      "level": 1,
+      "workouts": 1,
+      "volumeKg": 660.0
+    },
+    {
+      "date": "2026-02-27",
       "level": 4,
       "workouts": 1,
-      "volumeKg": 8090.0
+      "volumeKg": 3495.0
+    },
+    {
+      "date": "2026-02-28",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-03-01",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-03-02",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-03-03",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-03-04",
+      "level": 3,
+      "workouts": 1,
+      "volumeKg": 2620.0
+    },
+    {
+      "date": "2026-03-05",
+      "level": 3,
+      "workouts": 1,
+      "volumeKg": 1736.0
     },
     {
       "date": "2026-03-06",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 4545.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-03-07",
@@ -83,33 +1217,33 @@
     },
     {
       "date": "2026-03-09",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 4092.0
-    },
-    {
-      "date": "2026-03-10",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3468.0
-    },
-    {
-      "date": "2026-03-11",
       "level": 0,
       "workouts": 0,
       "volumeKg": 0.0
     },
     {
-      "date": "2026-03-12",
+      "date": "2026-03-10",
       "level": 4,
       "workouts": 1,
-      "volumeKg": 8352.0
+      "volumeKg": 3850.0
+    },
+    {
+      "date": "2026-03-11",
+      "level": 1,
+      "workouts": 1,
+      "volumeKg": 605.0
+    },
+    {
+      "date": "2026-03-12",
+      "level": 3,
+      "workouts": 1,
+      "volumeKg": 3225.0
     },
     {
       "date": "2026-03-13",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 4260.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-03-14",
@@ -125,15 +1259,15 @@
     },
     {
       "date": "2026-03-16",
-      "level": 2,
+      "level": 3,
       "workouts": 1,
-      "volumeKg": 3830.0
+      "volumeKg": 1970.0
     },
     {
       "date": "2026-03-17",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3195.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-03-18",
@@ -143,15 +1277,15 @@
     },
     {
       "date": "2026-03-19",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 8408.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-03-20",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 5090.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-03-21",
@@ -167,15 +1301,15 @@
     },
     {
       "date": "2026-03-23",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 4278.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-03-24",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3162.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-03-25",
@@ -185,15 +1319,15 @@
     },
     {
       "date": "2026-03-26",
-      "level": 4,
+      "level": 1,
       "workouts": 1,
-      "volumeKg": 8318.0
+      "volumeKg": 1065.0
     },
     {
       "date": "2026-03-27",
       "level": 2,
       "workouts": 1,
-      "volumeKg": 4722.0
+      "volumeKg": 1339.0
     },
     {
       "date": "2026-03-28",
@@ -209,15 +1343,15 @@
     },
     {
       "date": "2026-03-30",
-      "level": 2,
+      "level": 1,
       "workouts": 1,
-      "volumeKg": 4182.0
+      "volumeKg": 325.0
     },
     {
       "date": "2026-03-31",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 3810.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-04-01",
@@ -253,13 +1387,13 @@
       "date": "2026-04-06",
       "level": 2,
       "workouts": 1,
-      "volumeKg": 4035.0
+      "volumeKg": 1355.0
     },
     {
       "date": "2026-04-07",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 2745.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-04-08",
@@ -269,15 +1403,15 @@
     },
     {
       "date": "2026-04-09",
-      "level": 4,
+      "level": 3,
       "workouts": 1,
-      "volumeKg": 8395.0
+      "volumeKg": 2590.0
     },
     {
       "date": "2026-04-10",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 4830.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-04-11",
@@ -293,15 +1427,15 @@
     },
     {
       "date": "2026-04-13",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 4365.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-04-14",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3595.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-04-15",
@@ -311,21 +1445,21 @@
     },
     {
       "date": "2026-04-16",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 8710.0
-    },
-    {
-      "date": "2026-04-17",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 4035.0
-    },
-    {
-      "date": "2026-04-18",
       "level": 0,
       "workouts": 0,
       "volumeKg": 0.0
+    },
+    {
+      "date": "2026-04-17",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-04-18",
+      "level": 1,
+      "workouts": 1,
+      "volumeKg": 741.0
     },
     {
       "date": "2026-04-19",
@@ -335,15 +1469,15 @@
     },
     {
       "date": "2026-04-20",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 4835.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-04-21",
-      "level": 1,
+      "level": 3,
       "workouts": 1,
-      "volumeKg": 3365.0
+      "volumeKg": 3155.0
     },
     {
       "date": "2026-04-22",
@@ -353,15 +1487,15 @@
     },
     {
       "date": "2026-04-23",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 8250.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-04-24",
-      "level": 3,
+      "level": 4,
       "workouts": 1,
-      "volumeKg": 4795.0
+      "volumeKg": 3975.0
     },
     {
       "date": "2026-04-25",
@@ -377,39 +1511,39 @@
     },
     {
       "date": "2026-04-27",
-      "level": 2,
+      "level": 1,
       "workouts": 1,
-      "volumeKg": 4210.0
+      "volumeKg": 1114.0
     },
     {
       "date": "2026-04-28",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3540.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-04-29",
-      "level": 0,
-      "workouts": 0,
-      "volumeKg": 0.0
+      "level": 3,
+      "workouts": 1,
+      "volumeKg": 2660.0
     },
     {
       "date": "2026-04-30",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 8415.0
-    },
-    {
-      "date": "2026-05-01",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 4778.0
-    },
-    {
-      "date": "2026-05-02",
       "level": 0,
       "workouts": 0,
       "volumeKg": 0.0
+    },
+    {
+      "date": "2026-05-01",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-05-02",
+      "level": 2,
+      "workouts": 1,
+      "volumeKg": 1342.0
     },
     {
       "date": "2026-05-03",
@@ -419,15 +1553,15 @@
     },
     {
       "date": "2026-05-04",
-      "level": 3,
+      "level": 2,
       "workouts": 1,
-      "volumeKg": 5062.0
+      "volumeKg": 1647.0
     },
     {
       "date": "2026-05-05",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3538.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-05-06",
@@ -437,15 +1571,15 @@
     },
     {
       "date": "2026-05-07",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 8612.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-05-08",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 4900.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-05-09",
@@ -461,15 +1595,15 @@
     },
     {
       "date": "2026-05-11",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 4668.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-05-12",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3485.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-05-13",
@@ -479,15 +1613,15 @@
     },
     {
       "date": "2026-05-14",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 9875.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-05-15",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 4475.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-05-16",
@@ -503,15 +1637,15 @@
     },
     {
       "date": "2026-05-18",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 4512.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-05-19",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3308.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-05-20",
@@ -521,15 +1655,15 @@
     },
     {
       "date": "2026-05-21",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 8465.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-05-22",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 4792.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-05-23",
@@ -545,15 +1679,15 @@
     },
     {
       "date": "2026-05-25",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 4672.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-05-26",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3555.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-05-27",
@@ -563,15 +1697,15 @@
     },
     {
       "date": "2026-05-28",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 8365.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-05-29",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 5172.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-05-30",
@@ -587,15 +1721,15 @@
     },
     {
       "date": "2026-06-01",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 4658.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-06-02",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3785.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-06-03",
@@ -629,15 +1763,15 @@
     },
     {
       "date": "2026-06-08",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 4902.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-06-09",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3288.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-06-10",
@@ -647,15 +1781,15 @@
     },
     {
       "date": "2026-06-11",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 8942.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-06-12",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 5075.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-06-13",
@@ -671,33 +1805,33 @@
     },
     {
       "date": "2026-06-15",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 4632.0
-    },
-    {
-      "date": "2026-06-16",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3578.0
-    },
-    {
-      "date": "2026-06-17",
       "level": 0,
       "workouts": 0,
       "volumeKg": 0.0
     },
     {
-      "date": "2026-06-18",
-      "level": 4,
+      "date": "2026-06-16",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
+    },
+    {
+      "date": "2026-06-17",
+      "level": 3,
       "workouts": 1,
-      "volumeKg": 8790.0
+      "volumeKg": 2768.0
+    },
+    {
+      "date": "2026-06-18",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-06-19",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 5062.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-06-20",
@@ -713,33 +1847,33 @@
     },
     {
       "date": "2026-06-22",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 4670.0
-    },
-    {
-      "date": "2026-06-23",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3075.0
-    },
-    {
-      "date": "2026-06-24",
       "level": 0,
       "workouts": 0,
       "volumeKg": 0.0
     },
     {
-      "date": "2026-06-25",
-      "level": 4,
+      "date": "2026-06-23",
+      "level": 2,
       "workouts": 1,
-      "volumeKg": 8625.0
+      "volumeKg": 1559.0
+    },
+    {
+      "date": "2026-06-24",
+      "level": 3,
+      "workouts": 1,
+      "volumeKg": 1833.0
+    },
+    {
+      "date": "2026-06-25",
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-06-26",
       "level": 4,
       "workouts": 1,
-      "volumeKg": 6032.0
+      "volumeKg": 3702.0
     },
     {
       "date": "2026-06-27",
@@ -755,15 +1889,15 @@
     },
     {
       "date": "2026-06-29",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 4708.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-06-30",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3448.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-07-01",
@@ -773,15 +1907,15 @@
     },
     {
       "date": "2026-07-02",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 8388.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-07-03",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 4942.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-07-04",
@@ -797,15 +1931,15 @@
     },
     {
       "date": "2026-07-06",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 4822.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-07-07",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3200.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-07-08",
@@ -815,15 +1949,15 @@
     },
     {
       "date": "2026-07-09",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 8875.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-07-10",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 5205.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-07-11",
@@ -839,15 +1973,15 @@
     },
     {
       "date": "2026-07-13",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 5020.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-07-14",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3800.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-07-15",
@@ -857,15 +1991,15 @@
     },
     {
       "date": "2026-07-16",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 10382.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-07-17",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 5580.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-07-18",
@@ -881,15 +2015,15 @@
     },
     {
       "date": "2026-07-20",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 4748.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-07-21",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3480.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-07-22",
@@ -899,15 +2033,15 @@
     },
     {
       "date": "2026-07-23",
-      "level": 4,
+      "level": 3,
       "workouts": 1,
-      "volumeKg": 10025.0
+      "volumeKg": 2225.0
     },
     {
       "date": "2026-07-24",
-      "level": 3,
+      "level": 1,
       "workouts": 1,
-      "volumeKg": 5380.0
+      "volumeKg": 918.0
     },
     {
       "date": "2026-07-25",
@@ -923,15 +2057,15 @@
     },
     {
       "date": "2026-07-27",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 4792.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-07-28",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3730.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-07-29",
@@ -941,15 +2075,15 @@
     },
     {
       "date": "2026-07-30",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 8865.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-07-31",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 5678.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-08-01",
@@ -965,15 +2099,15 @@
     },
     {
       "date": "2026-08-03",
-      "level": 2,
+      "level": 1,
       "workouts": 1,
-      "volumeKg": 4055.0
+      "volumeKg": 958.0
     },
     {
       "date": "2026-08-04",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 3905.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-08-05",
@@ -983,15 +2117,15 @@
     },
     {
       "date": "2026-08-06",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 9225.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-08-07",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 5808.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-08-08",
@@ -1007,15 +2141,15 @@
     },
     {
       "date": "2026-08-10",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 4530.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-08-11",
-      "level": 1,
-      "workouts": 1,
-      "volumeKg": 3485.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-08-12",
@@ -1025,15 +2159,15 @@
     },
     {
       "date": "2026-08-13",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 9680.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-08-14",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 6178.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-08-15",
@@ -1049,15 +2183,15 @@
     },
     {
       "date": "2026-08-17",
-      "level": 3,
+      "level": 4,
       "workouts": 1,
-      "volumeKg": 5198.0
+      "volumeKg": 3598.0
     },
     {
       "date": "2026-08-18",
-      "level": 1,
+      "level": 2,
       "workouts": 1,
-      "volumeKg": 3765.0
+      "volumeKg": 1721.0
     },
     {
       "date": "2026-08-19",
@@ -1067,15 +2201,15 @@
     },
     {
       "date": "2026-08-20",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 8685.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-08-21",
-      "level": 4,
-      "workouts": 1,
-      "volumeKg": 5828.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-08-22",
@@ -1091,15 +2225,15 @@
     },
     {
       "date": "2026-08-24",
-      "level": 3,
-      "workouts": 1,
-      "volumeKg": 5180.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-08-25",
-      "level": 2,
-      "workouts": 1,
-      "volumeKg": 4232.0
+      "level": 0,
+      "workouts": 0,
+      "volumeKg": 0.0
     },
     {
       "date": "2026-08-26",
@@ -1118,322 +2252,316 @@
       "level": 0,
       "workouts": 0,
       "volumeKg": 0.0
-    },
-    {
-      "date": "2026-08-29",
-      "level": 0,
-      "workouts": 0,
-      "volumeKg": 0.0
-    },
-    {
-      "date": "2026-08-30",
-      "level": 0,
-      "workouts": 0,
-      "volumeKg": 0.0
     }
   ],
   "muscleSplit": [
     {
+      "muscle": "Shoulders",
+      "sets": 125,
+      "share": 0.2540650406504065
+    },
+    {
       "muscle": "Chest",
-      "sets": 156,
-      "share": 0.15028901734104047
+      "sets": 96,
+      "share": 0.1951219512195122
     },
     {
       "muscle": "Lats",
-      "sets": 156,
-      "share": 0.15028901734104047
+      "sets": 74,
+      "share": 0.15040650406504066
+    },
+    {
+      "muscle": "Triceps",
+      "sets": 55,
+      "share": 0.11178861788617886
     },
     {
       "muscle": "Upper Back",
-      "sets": 147,
-      "share": 0.1416184971098266
+      "sets": 46,
+      "share": 0.09349593495934959
     },
     {
       "muscle": "Biceps",
-      "sets": 147,
-      "share": 0.1416184971098266
-    },
-    {
-      "muscle": "Quadriceps",
-      "sets": 138,
-      "share": 0.1329479768786127
-    },
-    {
-      "muscle": "Shoulders",
-      "sets": 78,
-      "share": 0.07514450867052024
+      "sets": 35,
+      "share": 0.07113821138211382
     }
   ],
   "records": [
     {
-      "exercise": "Leg Press",
-      "exerciseTemplateId": "5E9A2D41",
-      "weightKg": 185.0,
-      "reps": 10.0,
-      "estimatedOneRepMaxKg": 247.0,
-      "date": "2026-08-06T07:15:00+05:30"
+      "exercise": "Lat Pulldown (Machine)",
+      "exerciseTemplateId": "473CF5B8",
+      "weightKg": 160.0,
+      "reps": 11.0,
+      "estimatedOneRepMaxKg": 219.0,
+      "date": "2025-07-30T05:37:44+00:00"
     },
     {
-      "exercise": "Deadlift (Barbell)",
-      "exerciseTemplateId": "6A6C31A5",
-      "weightKg": 140.0,
-      "reps": 10.0,
-      "estimatedOneRepMaxKg": 187.0,
-      "date": "2026-07-31T07:15:00+05:30"
+      "exercise": "Leg Press Horizontal (Machine)",
+      "exerciseTemplateId": "0EB695C9",
+      "weightKg": 100.0,
+      "reps": 12.0,
+      "estimatedOneRepMaxKg": 140.0,
+      "date": "2025-05-13T09:15:03+00:00"
     },
     {
-      "exercise": "Squat (Barbell)",
-      "exerciseTemplateId": "C6272009",
-      "weightKg": 110.0,
-      "reps": 10.0,
-      "estimatedOneRepMaxKg": 147.0,
-      "date": "2026-08-13T07:15:00+05:30"
+      "exercise": "Triceps Pushdown",
+      "exerciseTemplateId": "93A552C6",
+      "weightKg": 80.0,
+      "reps": 14.0,
+      "estimatedOneRepMaxKg": 117.0,
+      "date": "2026-08-17T15:05:18+00:00"
     },
     {
-      "exercise": "Romanian Deadlift",
-      "exerciseTemplateId": "A5FDC0F4",
-      "weightKg": 92.5,
-      "reps": 10.0,
-      "estimatedOneRepMaxKg": 123.0,
-      "date": "2026-08-13T07:15:00+05:30"
+      "exercise": "Leg Press (Machine)",
+      "exerciseTemplateId": "C7973E0E",
+      "weightKg": 90.0,
+      "reps": 9.0,
+      "estimatedOneRepMaxKg": 117.0,
+      "date": "2026-04-21T13:33:54+00:00"
     },
     {
-      "exercise": "Bench Press (Barbell)",
-      "exerciseTemplateId": "D04AC939",
-      "weightKg": 82.5,
-      "reps": 10.0,
-      "estimatedOneRepMaxKg": 110.0,
-      "date": "2026-08-24T07:15:00+05:30"
+      "exercise": "Leg Extension (Machine)",
+      "exerciseTemplateId": "75A4F6C4",
+      "weightKg": 85.0,
+      "reps": 11.0,
+      "estimatedOneRepMaxKg": 116.0,
+      "date": "2025-05-13T09:15:03+00:00"
     }
   ],
   "workouts": [
     {
-      "id": "sample-0-1",
-      "title": "Pull — Back & Biceps",
-      "startTime": "2026-08-25T07:15:00+05:30",
-      "durationMinutes": 73,
-      "volumeKg": 4232.0,
-      "sets": 12,
-      "prCount": 0,
+      "id": "34a26409-444a-40db-bab8-7d0cb1bb8325",
+      "title": "Pull 1",
+      "startTime": "2026-08-18T04:57:54+00:00",
+      "durationMinutes": 31,
+      "volumeKg": 1721.0,
+      "sets": 8,
+      "prCount": 1,
       "exercises": [
         {
-          "title": "Pull Up",
+          "title": "Bent Over Row (Barbell)",
           "sets": 3,
-          "topSet": "8 reps",
-          "muscle": "Lats"
-        },
-        {
-          "title": "Barbell Row",
-          "sets": 3,
-          "topSet": "72.5 kg × 10",
+          "topSet": "7.5 kg \u00c3\u2014 12",
           "muscle": "Upper Back"
         },
         {
           "title": "Lat Pulldown (Cable)",
           "sets": 3,
-          "topSet": "65 kg × 10",
+          "topSet": "38.5 kg \u00c3\u2014 10",
           "muscle": "Lats"
         },
         {
-          "title": "Bicep Curl (Dumbbell)",
-          "sets": 3,
-          "topSet": "20 kg × 10",
-          "muscle": "Biceps"
+          "title": "Lat Pulldown - Close Grip (Cable)",
+          "sets": 2,
+          "topSet": "32 kg \u00c3\u2014 8",
+          "muscle": "Lats"
         }
       ]
     },
     {
-      "id": "sample-0-0",
-      "title": "Push — Chest & Shoulders",
-      "startTime": "2026-08-24T07:15:00+05:30",
-      "durationMinutes": 60,
-      "volumeKg": 5180.0,
+      "id": "343d50f6-de52-4347-a6ed-7755a132d279",
+      "title": "Push 1",
+      "startTime": "2026-08-17T15:05:18+00:00",
+      "durationMinutes": 52,
+      "volumeKg": 3598.0,
       "sets": 12,
       "prCount": 1,
       "exercises": [
         {
-          "title": "Bench Press (Barbell)",
+          "title": "Incline Bench Press (Dumbbell)",
           "sets": 3,
-          "topSet": "82.5 kg × 10",
+          "topSet": "12.5 kg \u00c3\u2014 12",
           "muscle": "Chest"
         },
         {
-          "title": "Overhead Press (Barbell)",
+          "title": "Bench Press (Dumbbell)",
           "sets": 3,
-          "topSet": "52.5 kg × 10",
+          "topSet": "12.5 kg \u00c3\u2014 12",
+          "muscle": "Chest"
+        },
+        {
+          "title": "Lateral Raise (Dumbbell)",
+          "sets": 3,
+          "topSet": "5 kg \u00c3\u2014 12",
           "muscle": "Shoulders"
         },
         {
-          "title": "Incline Dumbbell Press",
+          "title": "Triceps Pushdown",
           "sets": 3,
-          "topSet": "32.5 kg × 9",
-          "muscle": "Chest"
-        },
-        {
-          "title": "Triceps Rope Pushdown",
-          "sets": 3,
-          "topSet": "37.5 kg × 10",
+          "topSet": "80 kg \u00c3\u2014 14",
           "muscle": "Triceps"
         }
       ]
     },
     {
-      "id": "sample-1-3",
-      "title": "Pull — Deadlift Focus",
-      "startTime": "2026-08-21T07:15:00+05:30",
-      "durationMinutes": 53,
-      "volumeKg": 5828.0,
-      "sets": 9,
+      "id": "27762639-1a0c-4e0f-8805-89ba48e0e075",
+      "title": "Shoulders",
+      "startTime": "2026-08-03T12:53:05+00:00",
+      "durationMinutes": 41,
+      "volumeKg": 958.0,
+      "sets": 8,
       "prCount": 0,
       "exercises": [
         {
-          "title": "Deadlift (Barbell)",
+          "title": "Shoulder Press (Dumbbell)",
           "sets": 3,
-          "topSet": "140 kg × 10",
-          "muscle": "Lower Back"
+          "topSet": "10 kg \u00c3\u2014 12",
+          "muscle": "Shoulders"
         },
         {
-          "title": "Barbell Row",
+          "title": "Lateral Raise (Dumbbell)",
           "sets": 3,
-          "topSet": "70 kg × 10",
-          "muscle": "Upper Back"
+          "topSet": "5 kg \u00c3\u2014 12",
+          "muscle": "Shoulders"
         },
         {
-          "title": "Bicep Curl (Dumbbell)",
-          "sets": 3,
-          "topSet": "17.5 kg × 9",
-          "muscle": "Biceps"
+          "title": "Upright Row (Cable)",
+          "sets": 2,
+          "topSet": "23 kg \u00c3\u2014 12",
+          "muscle": "Shoulders"
         }
       ]
     },
     {
-      "id": "sample-1-2",
-      "title": "Legs — Squat Focus",
-      "startTime": "2026-08-20T07:15:00+05:30",
-      "durationMinutes": 73,
-      "volumeKg": 8685.0,
-      "sets": 9,
-      "prCount": 0,
-      "exercises": [
-        {
-          "title": "Squat (Barbell)",
-          "sets": 3,
-          "topSet": "110 kg × 8",
-          "muscle": "Quadriceps"
-        },
-        {
-          "title": "Romanian Deadlift",
-          "sets": 3,
-          "topSet": "95 kg × 7",
-          "muscle": "Hamstrings"
-        },
-        {
-          "title": "Leg Press",
-          "sets": 3,
-          "topSet": "185 kg × 9",
-          "muscle": "Quadriceps"
-        }
-      ]
-    },
-    {
-      "id": "sample-1-1",
-      "title": "Pull — Back & Biceps",
-      "startTime": "2026-08-18T07:15:00+05:30",
-      "durationMinutes": 62,
-      "volumeKg": 3765.0,
-      "sets": 12,
+      "id": "535122ae-1a11-4eb8-a2f0-999b45245be4",
+      "title": "Back, bicep",
+      "startTime": "2026-07-24T14:55:52+00:00",
+      "durationMinutes": 31,
+      "volumeKg": 918.0,
+      "sets": 8,
       "prCount": 1,
       "exercises": [
         {
           "title": "Pull Up",
-          "sets": 3,
-          "topSet": "7 reps",
+          "sets": 2,
+          "topSet": "6 reps",
           "muscle": "Lats"
-        },
-        {
-          "title": "Barbell Row",
-          "sets": 3,
-          "topSet": "70 kg × 10",
-          "muscle": "Upper Back"
         },
         {
           "title": "Lat Pulldown (Cable)",
-          "sets": 3,
-          "topSet": "67.5 kg × 10",
+          "sets": 2,
+          "topSet": "40 kg \u00c3\u2014 10",
           "muscle": "Lats"
         },
         {
+          "title": "Bent Over Row (Barbell)",
+          "sets": 2,
+          "topSet": "10 kg \u00c3\u2014 6",
+          "muscle": "Upper Back"
+        },
+        {
           "title": "Bicep Curl (Dumbbell)",
-          "sets": 3,
-          "topSet": "17.5 kg × 9",
+          "sets": 2,
+          "topSet": "7.5 kg \u00c3\u2014 12",
           "muscle": "Biceps"
         }
       ]
     },
     {
-      "id": "sample-1-0",
-      "title": "Push — Chest & Shoulders",
-      "startTime": "2026-08-17T07:15:00+05:30",
-      "durationMinutes": 57,
-      "volumeKg": 5198.0,
-      "sets": 12,
-      "prCount": 2,
+      "id": "66f07cec-512d-4653-9cd1-95b67af0fc16",
+      "title": "Chest, tricep",
+      "startTime": "2026-07-23T14:51:23+00:00",
+      "durationMinutes": 47,
+      "volumeKg": 2225.0,
+      "sets": 9,
+      "prCount": 0,
       "exercises": [
         {
-          "title": "Bench Press (Barbell)",
-          "sets": 3,
-          "topSet": "80 kg × 10",
+          "title": "Push Up",
+          "sets": 1,
+          "topSet": "12 reps",
           "muscle": "Chest"
         },
         {
-          "title": "Overhead Press (Barbell)",
-          "sets": 3,
-          "topSet": "55 kg × 10",
-          "muscle": "Shoulders"
-        },
-        {
-          "title": "Incline Dumbbell Press",
-          "sets": 3,
-          "topSet": "32.5 kg × 10",
+          "title": "Incline Bench Press (Dumbbell)",
+          "sets": 2,
+          "topSet": "12.5 kg \u00c3\u2014 11",
           "muscle": "Chest"
         },
         {
-          "title": "Triceps Rope Pushdown",
-          "sets": 3,
-          "topSet": "37.5 kg × 10",
+          "title": "Triceps Pushdown",
+          "sets": 2,
+          "topSet": "50 kg \u00c3\u2014 10",
           "muscle": "Triceps"
+        },
+        {
+          "title": "Triceps Extension (Dumbbell)",
+          "sets": 2,
+          "topSet": "10 kg \u00c3\u2014 10",
+          "muscle": "Triceps"
+        },
+        {
+          "title": "Chest Fly (Machine)",
+          "sets": 2,
+          "topSet": "40 kg \u00c3\u2014 10",
+          "muscle": "Chest"
+        }
+      ]
+    },
+    {
+      "id": "b4a5df57-7da7-4f24-8050-d4770c0a5dba",
+      "title": "Back, bicep",
+      "startTime": "2026-06-26T16:21:30+00:00",
+      "durationMinutes": 37,
+      "volumeKg": 3702.0,
+      "sets": 9,
+      "prCount": 3,
+      "exercises": [
+        {
+          "title": "Lat Pulldown (Cable)",
+          "sets": 3,
+          "topSet": "75 kg \u00c3\u2014 12",
+          "muscle": "Lats"
+        },
+        {
+          "title": "Iso-Lateral Row (Machine)",
+          "sets": 3,
+          "topSet": "40 kg \u00c3\u2014 10",
+          "muscle": "Upper Back"
+        },
+        {
+          "title": "Hammer Curl (Dumbbell)",
+          "sets": 2,
+          "topSet": "10 kg \u00c3\u2014 11",
+          "muscle": "Biceps"
+        },
+        {
+          "title": "Bicep Curl (Dumbbell)",
+          "sets": 1,
+          "topSet": "7.5 kg \u00c3\u2014 12",
+          "muscle": "Biceps"
         }
       ]
     }
   ],
   "routines": [
     {
-      "id": "routine-0",
-      "title": "Push — Chest & Shoulders",
-      "exerciseCount": 4,
-      "setCount": 13,
-      "focus": ["Chest", "Shoulders", "Triceps"]
+      "id": "f7bbc952-50ea-45d7-ab92-e8cd21bd7fd2",
+      "title": "legs ",
+      "exerciseCount": 5,
+      "setCount": 12,
+      "focus": ["Quadriceps", "Hamstrings", "Calves"]
     },
     {
-      "id": "routine-1",
-      "title": "Pull — Back & Biceps",
-      "exerciseCount": 4,
-      "setCount": 13,
+      "id": "3120918a-55a8-46c4-a670-74cb372a2741",
+      "title": "Back, bicep ",
+      "exerciseCount": 5,
+      "setCount": 11,
       "focus": ["Lats", "Upper Back", "Biceps"]
     },
     {
-      "id": "routine-2",
-      "title": "Legs — Squat Focus",
-      "exerciseCount": 3,
+      "id": "48dfc741-7aec-4d5d-ba13-601854758105",
+      "title": "Chest, tricep ",
+      "exerciseCount": 6,
       "setCount": 10,
-      "focus": ["Quadriceps", "Hamstrings"]
+      "focus": ["Chest", "Triceps"]
     },
     {
-      "id": "routine-3",
-      "title": "Pull — Deadlift Focus",
-      "exerciseCount": 3,
-      "setCount": 10,
-      "focus": ["Lower Back", "Upper Back", "Biceps"]
+      "id": "23753bd1-ebd3-4dde-8b7b-f3faeab68f4a",
+      "title": "Shoulders  ",
+      "exerciseCount": 5,
+      "setCount": 5,
+      "focus": ["Shoulders", "Traps"]
     }
   ]
 }

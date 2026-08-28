@@ -127,7 +127,6 @@ The design kit shipped with sample data, which is carried over verbatim and mark
   `lib/contributions.ts` documents the shape the GitHub GraphQL
   `contributionsCollection` query needs to return.
 - `public/images/banner.png` — the decorative masthead figure
-- `siteConfig.githubStars` in `content/site.ts` is a static string
 
 ---
 

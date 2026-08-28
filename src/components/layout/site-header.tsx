@@ -49,11 +49,10 @@ export function SiteHeader() {
           href={siteConfig.githubUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden items-center gap-1.5 text-[0.875rem] text-muted-foreground no-underline transition-colors hover:text-foreground sm:inline-flex"
+          aria-label="GitHub"
+          className="hidden items-center text-muted-foreground transition-colors hover:text-foreground sm:inline-flex"
         >
           <GitHubIcon width={16} height={16} className="block" />
-          <span className="tabular-nums">{siteConfig.githubStars}</span>
-          <span className="sr-only">GitHub stars</span>
         </a>
       </div>
     </header>
